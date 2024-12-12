@@ -1,0 +1,22 @@
+Criar a venv:
+
+python -m venv venv
+
+________________________
+Instalar a biblioteca desejada: 
+
+pip install requests
+________________________
+Listar tudo o que tem dentro do módulo pip
+
+pip freeze
+________________________
+Um ponto importante é que podemos até para listar esses pacotes que instalamos, essa é uma boa prática. Podemos colocar, por exemplo, pip freeze >. Em seguida, precisamos informar para criar um arquivo .txt listando tudo que temos instalado. Por convenção, o nome desse arquivo é requirements.txt.
+
+pip freeze > requirements.txt
+________________________
+
+FASTAPI
+
+pip install fastapi
+pip install uvicorn
