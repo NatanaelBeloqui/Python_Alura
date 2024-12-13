@@ -1,0 +1,29 @@
+1. Criar o ambiente virtual.
+-> python -m venv nome_do_ambiente
+Obs: o nome do ambiente deve ser venv
+
+2. Entrar no ambiente virtual.
+-> venv\Scripts\activate
+Obs: se quiser sair -> deactivate
+
+3. Verificar o que tem no ambiente:
+-> pip freeze
+
+4. Instalar o framework:
+-> pip install django
+
+5. Salvar as informações do ambiente no txt:
+-> pip freeze > requirements.txt
+
+6. Iniciar o projeto Django:
+-> django-admin startproject nome_do_projeto .
+Obs_1: O ponto no final serve para não criar uma pasta a mais dentro do projeto.
+Obs_2: O nome desse arquivo, por uma questão de boa prática, deve ser setup ou config.
+
+7. Certificar que o interpretador python está na mesma versão que a da venv:
+- Ctrl + Shift + p
+- Python: selecionar interpretador
+- "Selecionar a versão recomendada"
+
+8. Caso queira ver alguma coisa na tela:
+- python manage.py runserver
